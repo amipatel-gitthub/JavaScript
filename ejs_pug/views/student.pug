@@ -1,0 +1,60 @@
+doctype html 
+html 
+    head 
+        title pugdemo 
+        body 
+        include searchbox
+        h4 Student Details 
+        p 
+            span StudentId #{studentid}
+            br
+            span StudentName : #{studentname}
+            br
+            span StudentMarks : #{studentmarks}
+            br
+        table(border="1")
+            tr 
+                th Name 
+                th Marks 
+            for s in subjects
+                tr 
+                    td  #{s.name}
+                    td=s.marks
+
+
+
+
+        p 
+            span StudentId #{studentid1}
+            br
+            span StudentName : #{studentname1}
+            br
+            span StudentMarks : #{studentmarks1}
+            br
+        table(border="1")
+            tr 
+                th Name 
+                th Marks 
+            for s in subject
+                tr 
+                    td  #{s.name}
+                    td=s.marks
+
+        //- table(border="1")
+        //-     tr 
+        //-         th Name 
+        //-         th Marks 
+        //-     for s in subjects
+        //-         tr 
+        //-             td  #{s.name}
+        //-             td=s.marks
+
+        //- table(border="1")
+        //-     tr 
+        //-         th Name 
+        //-         th Marks 
+        //-     for s in subjects
+        //-         tr 
+        //-             td  #{s.name}
+        //-             td=s.marks
+        //- include searchbox

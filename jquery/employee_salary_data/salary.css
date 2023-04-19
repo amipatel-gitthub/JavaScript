@@ -1,0 +1,27 @@
+.h3-emp{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.abc {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.bcd {
+    margin-top: 15px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.btn-1 {
+    margin-top: 5px;
+    margin-left: 50px;
+    font-weight: bold;
+    border-radius: 12px;
+    padding: 8px 15px;
+}
+.btn-1 :hover{
+    cursor:pointer;
+}

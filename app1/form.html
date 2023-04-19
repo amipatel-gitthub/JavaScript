@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Document</title>
+</head>
+<style>
+    /* form {
+        margin: 0% 5% 5% 5%;
+        padding: 0% 5% 5% 5%;
+        border: 2px solid black;
+    } */
+
+    .box {
+        text-align: center;
+        display: flex;
+    }
+
+    #info {
+        margin-left: 5%;
+    }
+</style>
+
+<body>
+
+    <h1>
+        <Form> Form </Form>
+    </h1>
+    <form method="post" action="/submit">
+        <div id="header" style="text-align: center;">
+            <!-- <h1> Inquiry Form </h1> -->
+            <div class="box">
+                <div id="info">Date : <span id="date"></span> </div>
+            </div><br>
+            <hr><br>
+        </div>
+
+        <div class="box">
+            <div id="info">First name:
+                <input type="text" name="fname" placeholder="First Name">
+            </div>
+
+            <div id="info">Last name:
+                <input type="text" name="lname" placeholder="Last Name">
+            </div>
+        </div><br>
+
+        
+
+        <div id="info">Contact no.
+            <input type="number" name="contact_no" placeholder="mobile_no">
+        </div>
+        </div><br>
+
+        <div id="info">password
+            <input type="password" name="password" placeholder="password">
+        </div><br>
+
+        <div id="info">cofirm password
+            <input type="cofirm password" name="cofirm password" placeholder="cofirm password">
+        </div><br>
+
+    </form>
+</body>
+
+
+</html>

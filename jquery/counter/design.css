@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ececec;
+  box-sizing: border-box;
+}
+.main-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  background: #ececec;
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #fff;
+  height: 380px;
+  width: 440px;
+}
+#counter {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-size: 30px;
+  color: black;
+  text-shadow: 3px 3px 5px gray;
+}
+.first-box {
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: inset 20px 20px 60px #d9d9d9, inset -20px -20px 60px #fff;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  margin: 61px 0 0 152px;
+  transform: scale(1.5);
+}
+.fa {
+  box-shadow: 5px 5px 10px #d9d9d9, -5px -5px 10px #fff;
+  height: 60px;
+  width: 100px;
+  line-height: 30px;
+  border-radius: 50%;
+  padding: 10px;
+  text-align: center;
+  background: #ececec;
+  margin-right: 10px;
+}
+.fa:active {
+  box-shadow: inset 20px 20px 60px #d9d9d9, inset -20px -20px 60px #ececec;
+}
+.abc {
+  text-align: center;
+  bottom: 40px;
+  z-index: 99;
+  position: absolute;
+  display: flex;
+  left: 65px;
+}
+
+.abc div {
+  margin-right: 50px;
+}
